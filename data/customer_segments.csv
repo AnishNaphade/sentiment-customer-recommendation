@@ -1,0 +1,351 @@
+user_id,reviewer_name,country,recency,frequency,monetary,avg_rating,avg_sentiment,total_helpful,cluster,segment_name
+USER_0001,David Brown,United States,26,11,2079.49,2.64,0.152,38,2,Champions & Brand Advocates
+USER_0002,Emily Taylor,Germany,188,2,84.94,2.5,0.135,1,1,Hibernating / Dormant Shoppers
+USER_0003,Riley Jones,United Kingdom,127,4,528.74,2.25,0.073,29,1,Hibernating / Dormant Shoppers
+USER_0004,Sarah Lee,United Kingdom,31,2,50.79,4.5,0.077,2,0,Champions & Brand Advocates
+USER_0005,Lucas Dubois,United States,144,4,1337.83,4.25,0.634,13,0,Champions & Brand Advocates
+USER_0006,Alex Williams,Germany,239,3,338.98,4.0,0.704,2,0,Champions & Brand Advocates
+USER_0007,Riley King,United States,290,1,325.0,5.0,0.637,5,3,Hibernating / Dormant Shoppers
+USER_0008,Olivia Davis,France,140,2,849.98,4.0,0.897,1,0,Champions & Brand Advocates
+USER_0009,Riley Clark,India,132,3,710.4,3.67,0.54,2,0,Champions & Brand Advocates
+USER_0010,Alex Miller,France,28,11,2224.89,3.18,0.17,3,2,Champions & Brand Advocates
+USER_0011,Priya Taylor,Canada,30,10,2132.68,4.8,0.701,7,2,Champions & Brand Advocates
+USER_0012,Pat Patel,United Kingdom,29,12,2121.7,2.75,0.188,19,2,Champions & Brand Advocates
+USER_0013,Taylor Mueller,United Kingdom,78,8,2306.43,4.62,0.755,8,2,Champions & Brand Advocates
+USER_0014,Rahul Sharma,India,6,14,2461.45,4.21,0.462,7,2,Champions & Brand Advocates
+USER_0015,Jordan Clark,United Kingdom,247,2,239.94,2.0,-0.038,1,1,Hibernating / Dormant Shoppers
+USER_0016,Marcus Williams,India,190,1,89.99,5.0,0.681,0,3,Hibernating / Dormant Shoppers
+USER_0017,David Allen,Australia,47,24,4472.56,3.62,0.4,25,2,Champions & Brand Advocates
+USER_0018,Lucas Davis,United Kingdom,57,3,268.96,4.67,0.398,5,0,Champions & Brand Advocates
+USER_0019,Jordan Wilson,India,4,5,272.35,5.0,0.824,2,0,Champions & Brand Advocates
+USER_0020,Taylor Wilson,United Kingdom,210,3,462.98,2.33,-0.034,3,1,Hibernating / Dormant Shoppers
+USER_0021,Marcus Taylor,Japan,33,3,1899.95,4.33,0.67,0,0,Champions & Brand Advocates
+USER_0022,David Sharma,Canada,34,1,696.0,2.0,-0.556,2,1,Hibernating / Dormant Shoppers
+USER_0023,Rahul Sharma,Germany,194,1,10.8,4.0,0.709,0,3,Hibernating / Dormant Shoppers
+USER_0024,Sarah Taylor,United Kingdom,5,24,5229.9,4.58,0.626,42,2,Champions & Brand Advocates
+USER_0025,Emma Miller,Germany,31,13,3282.68,4.08,0.702,13,2,Champions & Brand Advocates
+USER_0026,Chris Clark,France,26,5,637.96,5.0,0.771,6,0,Champions & Brand Advocates
+USER_0027,Casey Lee,Germany,8,22,4689.41,4.36,0.635,39,2,Champions & Brand Advocates
+USER_0028,Sarah Patel,United States,242,2,358.8,2.5,0.056,5,1,Hibernating / Dormant Shoppers
+USER_0029,Riley Johnson,Australia,99,3,342.38,3.67,0.78,2,0,Champions & Brand Advocates
+USER_0030,Marcus Taylor,United Kingdom,69,17,3213.59,4.53,0.612,34,2,Champions & Brand Advocates
+USER_0031,Pat Hall,Australia,6,5,1553.84,4.4,0.793,4,0,Champions & Brand Advocates
+USER_0032,Pat Wright,France,5,11,4028.42,4.18,0.464,2,2,Champions & Brand Advocates
+USER_0033,David Clark,Canada,158,3,1423.97,4.33,0.899,1,0,Champions & Brand Advocates
+USER_0034,Casey Jones,Germany,87,1,339.98,4.0,0.709,0,0,Champions & Brand Advocates
+USER_0035,Emily Lee,India,456,2,184.99,2.5,0.368,0,1,Hibernating / Dormant Shoppers
+USER_0036,Emily Hall,France,100,2,397.99,4.5,0.641,3,0,Champions & Brand Advocates
+USER_0037,Lucas Mueller,Australia,36,2,393.0,3.5,0.544,3,0,Champions & Brand Advocates
+USER_0038,Riley Jones,Japan,237,1,249.0,2.0,-0.75,0,1,Hibernating / Dormant Shoppers
+USER_0039,Taylor Johnson,United Kingdom,346,2,739.99,3.5,0.746,2,3,Hibernating / Dormant Shoppers
+USER_0040,Sam Miller,France,11,14,2531.8,4.29,0.659,47,2,Champions & Brand Advocates
+USER_0041,Emma Williams,France,241,1,89.99,5.0,0.891,0,3,Hibernating / Dormant Shoppers
+USER_0042,Marcus Allen,Japan,84,3,572.98,4.33,0.85,14,0,Champions & Brand Advocates
+USER_0043,Noah Taylor,United States,568,1,79.99,5.0,0.948,0,3,Hibernating / Dormant Shoppers
+USER_0044,Sarah Brown,India,191,6,917.91,4.83,0.626,10,0,Champions & Brand Advocates
+USER_0045,Daniel Patel,United Kingdom,414,4,397.95,5.0,0.605,6,3,Hibernating / Dormant Shoppers
+USER_0046,Avery Dubois,Canada,163,14,2330.42,2.43,0.003,26,1,Hibernating / Dormant Shoppers
+USER_0047,Liam Smith,India,2,13,2629.89,2.92,0.256,11,2,Champions & Brand Advocates
+USER_0048,Noah Miller,United Kingdom,116,17,2721.58,4.35,0.573,13,2,Champions & Brand Advocates
+USER_0049,David Anderson,Germany,30,14,2207.79,4.71,0.703,97,2,Champions & Brand Advocates
+USER_0050,Sam Sharma,Canada,470,2,209.97,4.5,0.873,1,3,Hibernating / Dormant Shoppers
+USER_0051,Olivia King,United States,32,4,452.93,3.5,0.403,1,0,Champions & Brand Advocates
+USER_0052,Emma Patel,Japan,271,2,94.99,4.5,0.836,0,3,Hibernating / Dormant Shoppers
+USER_0053,Alex Brown,Australia,16,9,1482.89,3.78,0.42,23,2,Champions & Brand Advocates
+USER_0054,Avery Wilson,United States,22,7,2061.87,4.57,0.775,44,2,Champions & Brand Advocates
+USER_0055,Riley Hall,United Kingdom,181,4,542.98,5.0,0.571,13,0,Champions & Brand Advocates
+USER_0056,Taylor Wright,United Kingdom,11,11,2228.67,4.27,0.58,22,2,Champions & Brand Advocates
+USER_0057,Daniel Lee,Canada,126,3,264.97,2.67,0.033,16,1,Hibernating / Dormant Shoppers
+USER_0058,Sam Wright,Canada,494,1,599.98,5.0,0.886,1,3,Hibernating / Dormant Shoppers
+USER_0059,Casey King,France,37,13,2811.45,3.62,0.556,9,2,Champions & Brand Advocates
+USER_0060,Pat Lee,Germany,113,2,447.99,3.0,0.359,0,1,Hibernating / Dormant Shoppers
+USER_0061,Michael Anderson,France,52,5,726.94,4.0,0.597,2,0,Champions & Brand Advocates
+USER_0062,Sarah Sharma,Japan,107,2,689.98,4.0,0.793,0,0,Champions & Brand Advocates
+USER_0063,Noah Clark,United Kingdom,106,8,688.6,4.88,0.818,2,0,Champions & Brand Advocates
+USER_0064,Riley Wilson,United Kingdom,24,14,2734.58,3.64,0.452,7,2,Champions & Brand Advocates
+USER_0065,Priya Smith,Germany,2,28,6196.5,3.29,0.449,39,2,Champions & Brand Advocates
+USER_0066,Lucas Wilson,United States,133,9,1555.68,3.89,0.43,4,2,Champions & Brand Advocates
+USER_0067,Taylor Johnson,Germany,73,5,1331.92,5.0,0.764,0,0,Champions & Brand Advocates
+USER_0068,Taylor Johnson,Australia,217,3,450.74,4.33,0.434,0,0,Champions & Brand Advocates
+USER_0069,Taylor King,Germany,60,6,945.75,3.83,0.321,8,0,Champions & Brand Advocates
+USER_0070,Casey Wright,Germany,90,1,45.0,5.0,0.691,1,3,Hibernating / Dormant Shoppers
+USER_0071,Olivia Jones,Japan,423,2,180.79,4.0,0.923,1,3,Hibernating / Dormant Shoppers
+USER_0072,Riley Wright,France,253,4,762.97,4.5,0.561,5,0,Champions & Brand Advocates
+USER_0073,Pat Brown,United Kingdom,19,4,479.74,4.0,0.564,3,0,Champions & Brand Advocates
+USER_0074,Sarah Dubois,Australia,692,1,79.99,2.0,0.0,2,1,Hibernating / Dormant Shoppers
+USER_0075,Elena Dubois,Japan,41,4,427.96,4.25,0.724,31,0,Champions & Brand Advocates
+USER_0076,Emily Johnson,United Kingdom,28,20,4734.46,4.95,0.596,15,2,Champions & Brand Advocates
+USER_0077,Jordan Mueller,Australia,345,1,35.98,1.0,0.2,2,1,Hibernating / Dormant Shoppers
+USER_0078,Morgan Wilson,Germany,12,14,3236.6,2.79,0.141,45,2,Champions & Brand Advocates
+USER_0079,Pat Lee,Japan,127,6,819.66,4.0,0.643,15,0,Champions & Brand Advocates
+USER_0080,Sam Dubois,Canada,70,11,2349.86,3.0,0.264,41,2,Champions & Brand Advocates
+USER_0081,Casey Clark,Germany,234,1,139.95,4.0,0.886,1,3,Hibernating / Dormant Shoppers
+USER_0082,Taylor Clark,United Kingdom,74,13,3430.61,3.23,-0.015,24,2,Champions & Brand Advocates
+USER_0083,Jordan Lee,United States,75,10,1446.68,2.8,0.332,7,2,Champions & Brand Advocates
+USER_0084,Taylor Wilson,Canada,363,1,239.98,2.0,-0.077,1,1,Hibernating / Dormant Shoppers
+USER_0085,Elena Wright,Japan,92,4,826.88,2.75,-0.038,2,1,Hibernating / Dormant Shoppers
+USER_0086,Pat Mueller,United States,128,10,1259.74,4.5,0.655,15,2,Champions & Brand Advocates
+USER_0087,Chris Mueller,United States,225,4,548.97,5.0,0.829,6,0,Champions & Brand Advocates
+USER_0088,Marcus Taylor,Japan,392,1,348.0,5.0,0.922,0,3,Hibernating / Dormant Shoppers
+USER_0089,Avery Dubois,Japan,50,27,5497.51,4.15,0.594,20,2,Champions & Brand Advocates
+USER_0090,Sam Davis,India,2,4,198.72,4.0,0.318,2,0,Champions & Brand Advocates
+USER_0091,Pat Johnson,United States,38,4,904.96,5.0,0.647,15,0,Champions & Brand Advocates
+USER_0092,Emily Patel,United States,310,1,419.97,5.0,0.84,0,3,Hibernating / Dormant Shoppers
+USER_0093,Jordan Hall,Japan,436,2,414.99,5.0,0.883,0,3,Hibernating / Dormant Shoppers
+USER_0094,Noah King,Canada,38,7,1060.66,4.0,0.431,3,2,Champions & Brand Advocates
+USER_0095,Jordan King,United Kingdom,232,3,329.93,4.0,0.371,6,0,Champions & Brand Advocates
+USER_0096,Chris Williams,United Kingdom,214,7,2071.92,4.43,0.78,7,0,Champions & Brand Advocates
+USER_0097,Sarah Wilson,France,48,16,2824.64,4.56,0.609,37,2,Champions & Brand Advocates
+USER_0098,Morgan Hall,Germany,16,3,1047.99,4.33,0.181,0,0,Champions & Brand Advocates
+USER_0099,Lucas Allen,United States,129,3,389.97,3.67,0.585,0,0,Champions & Brand Advocates
+USER_0100,Emma Williams,France,3,14,3055.59,3.79,0.401,21,2,Champions & Brand Advocates
+USER_0101,Sarah Hall,Australia,19,25,4212.3,4.36,0.502,75,2,Champions & Brand Advocates
+USER_0102,Casey Davis,Australia,260,1,325.0,5.0,0.807,0,3,Hibernating / Dormant Shoppers
+USER_0103,Riley Taylor,France,74,3,388.99,4.33,0.681,0,0,Champions & Brand Advocates
+USER_0104,Sam Anderson,Japan,98,2,379.96,2.5,0.406,0,1,Hibernating / Dormant Shoppers
+USER_0105,Priya Williams,United States,169,4,956.93,4.5,0.28,5,0,Champions & Brand Advocates
+USER_0106,Liam Allen,United Kingdom,291,1,10.8,4.0,0.939,0,3,Hibernating / Dormant Shoppers
+USER_0107,Taylor Lee,Germany,26,11,1687.73,4.64,0.73,31,2,Champions & Brand Advocates
+USER_0108,Noah Taylor,Canada,174,3,909.96,4.33,0.73,28,0,Champions & Brand Advocates
+USER_0109,Rahul Williams,Germany,114,4,863.98,5.0,0.8,2,0,Champions & Brand Advocates
+USER_0110,Rahul Anderson,Canada,185,1,45.0,2.0,-0.728,0,1,Hibernating / Dormant Shoppers
+USER_0111,Liam Lee,India,111,2,119.97,2.5,-0.201,1,1,Hibernating / Dormant Shoppers
+USER_0112,Emma King,United States,52,3,1223.99,4.67,0.595,2,0,Champions & Brand Advocates
+USER_0113,Sarah Lee,India,27,1,299.99,5.0,0.0,5,0,Champions & Brand Advocates
+USER_0114,Sarah Brown,Canada,295,3,1194.95,2.67,0.434,2,1,Hibernating / Dormant Shoppers
+USER_0115,Casey Brown,United Kingdom,14,11,1348.86,4.36,0.554,16,2,Champions & Brand Advocates
+USER_0116,Emily Lee,Canada,239,2,446.99,4.5,0.917,5,3,Hibernating / Dormant Shoppers
+USER_0117,Casey Anderson,Germany,90,8,1076.86,4.5,0.481,24,0,Champions & Brand Advocates
+USER_0118,Michael Patel,Germany,8,16,3195.39,4.62,0.648,12,2,Champions & Brand Advocates
+USER_0119,Sarah Taylor,Japan,25,19,3321.18,4.26,0.66,42,2,Champions & Brand Advocates
+USER_0120,Casey Johnson,United Kingdom,29,13,3633.82,4.62,0.751,13,2,Champions & Brand Advocates
+USER_0121,David Dubois,India,332,1,429.0,5.0,0.886,2,3,Hibernating / Dormant Shoppers
+USER_0122,Jordan Smith,Australia,135,4,1182.82,3.75,0.338,7,0,Champions & Brand Advocates
+USER_0123,Daniel Jones,India,144,2,259.94,3.0,0.667,3,0,Champions & Brand Advocates
+USER_0124,Chris Clark,France,51,7,1687.94,4.14,0.534,4,2,Champions & Brand Advocates
+USER_0125,Olivia Smith,United Kingdom,116,12,2254.68,4.17,0.458,15,2,Champions & Brand Advocates
+USER_0126,Taylor Jones,United States,108,2,94.96,3.5,0.764,0,0,Champions & Brand Advocates
+USER_0127,Rahul Hall,Canada,3,25,4853.39,4.48,0.58,31,2,Champions & Brand Advocates
+USER_0128,Elena Jones,United States,359,4,354.74,4.5,0.579,4,3,Hibernating / Dormant Shoppers
+USER_0129,Avery Sharma,United States,252,1,169.99,3.0,0.329,0,1,Hibernating / Dormant Shoppers
+USER_0130,Rahul Davis,Germany,26,3,527.98,3.33,0.509,4,0,Champions & Brand Advocates
+USER_0131,Sarah Brown,Australia,100,1,17.99,5.0,0.807,2,3,Hibernating / Dormant Shoppers
+USER_0132,Daniel Lee,France,270,2,509.84,5.0,0.754,0,3,Hibernating / Dormant Shoppers
+USER_0133,Emma Jones,Germany,28,7,752.9,4.86,0.79,6,0,Champions & Brand Advocates
+USER_0134,Chris Miller,France,41,21,4375.55,4.43,0.511,97,2,Champions & Brand Advocates
+USER_0135,Alex Miller,Australia,354,1,69.95,5.0,0.818,0,3,Hibernating / Dormant Shoppers
+USER_0136,Elena Wilson,India,118,14,2414.65,3.29,0.375,10,2,Champions & Brand Advocates
+USER_0137,Chris Brown,France,311,1,139.95,5.0,0.958,0,3,Hibernating / Dormant Shoppers
+USER_0138,Jordan Wright,Germany,8,25,4610.53,3.6,0.425,72,2,Champions & Brand Advocates
+USER_0139,Pat Clark,Australia,189,4,843.98,4.75,0.685,1,0,Champions & Brand Advocates
+USER_0140,Avery Wilson,Germany,41,11,3224.88,4.64,0.566,15,2,Champions & Brand Advocates
+USER_0141,Alex Davis,France,105,4,1204.98,3.5,0.356,0,0,Champions & Brand Advocates
+USER_0142,Priya Taylor,United Kingdom,332,3,267.97,4.0,0.731,0,3,Hibernating / Dormant Shoppers
+USER_0143,Daniel Taylor,Australia,12,10,1477.81,4.3,0.579,3,2,Champions & Brand Advocates
+USER_0144,David King,France,6,3,1744.96,1.67,-0.37,2,1,Hibernating / Dormant Shoppers
+USER_0145,Sarah Lee,Australia,300,4,552.94,4.75,0.74,5,3,Hibernating / Dormant Shoppers
+USER_0146,Alex Brown,India,59,27,5691.27,4.52,0.673,66,2,Champions & Brand Advocates
+USER_0147,Chris Hall,India,28,1,39.99,5.0,0.922,1,3,Hibernating / Dormant Shoppers
+USER_0148,Jordan Brown,France,43,22,4203.37,3.45,0.328,32,2,Champions & Brand Advocates
+USER_0149,Rahul Patel,France,96,2,548.99,3.0,0.306,0,1,Hibernating / Dormant Shoppers
+USER_0150,Emma King,United Kingdom,474,2,289.98,4.5,0.647,28,3,Hibernating / Dormant Shoppers
+USER_0151,Marcus Hall,Germany,390,3,526.98,3.0,0.363,0,1,Hibernating / Dormant Shoppers
+USER_0152,Casey Johnson,France,44,14,2544.6,4.07,0.533,20,2,Champions & Brand Advocates
+USER_0153,Alex King,Germany,41,14,2277.59,4.5,0.529,5,2,Champions & Brand Advocates
+USER_0154,Rahul Dubois,United Kingdom,32,10,3417.6,3.6,0.583,6,2,Champions & Brand Advocates
+USER_0155,Sarah Patel,Australia,220,2,179.89,4.5,0.79,1,3,Hibernating / Dormant Shoppers
+USER_0156,Sarah Brown,India,129,5,974.94,4.4,0.433,5,0,Champions & Brand Advocates
+USER_0157,Noah Anderson,France,4,10,1416.82,4.0,0.749,11,2,Champions & Brand Advocates
+USER_0158,Priya Mueller,India,380,1,139.95,5.0,0.922,0,3,Hibernating / Dormant Shoppers
+USER_0159,Olivia Jones,Germany,67,4,804.93,3.75,0.664,40,0,Champions & Brand Advocates
+USER_0160,Elena Mueller,Canada,228,4,608.78,4.75,0.518,3,0,Champions & Brand Advocates
+USER_0161,Emma Hall,India,6,27,5351.46,4.33,0.769,58,2,Champions & Brand Advocates
+USER_0162,Marcus Lee,United States,80,11,1933.69,3.18,0.334,16,2,Champions & Brand Advocates
+USER_0163,Avery Anderson,Germany,158,4,877.77,4.25,0.351,4,0,Champions & Brand Advocates
+USER_0164,Elena Hall,Australia,225,1,119.99,3.0,0.0,1,1,Hibernating / Dormant Shoppers
+USER_0165,Liam Clark,Japan,14,1,169.99,5.0,0.818,0,0,Champions & Brand Advocates
+USER_0166,Sarah Davis,Japan,132,12,2970.81,4.42,0.718,34,2,Champions & Brand Advocates
+USER_0167,Emily Miller,United Kingdom,38,6,1054.93,4.83,0.424,12,0,Champions & Brand Advocates
+USER_0168,Avery King,Australia,170,4,1862.78,5.0,0.564,4,0,Champions & Brand Advocates
+USER_0169,Taylor Wilson,India,91,11,1790.72,4.73,0.688,33,2,Champions & Brand Advocates
+USER_0170,Riley Davis,Canada,166,4,774.91,2.0,0.004,3,1,Hibernating / Dormant Shoppers
+USER_0171,Alex Johnson,Germany,7,5,1248.96,4.8,0.841,4,0,Champions & Brand Advocates
+USER_0172,Sophia Allen,United Kingdom,317,2,528.99,4.5,0.906,0,3,Hibernating / Dormant Shoppers
+USER_0173,Liam Dubois,Germany,29,26,5273.31,4.65,0.696,73,2,Champions & Brand Advocates
+USER_0174,Michael Mueller,Japan,507,2,339.99,2.0,0.1,6,1,Hibernating / Dormant Shoppers
+USER_0175,Marcus Wilson,Canada,86,3,1029.96,4.0,0.891,4,0,Champions & Brand Advocates
+USER_0176,David Smith,United Kingdom,22,4,525.95,1.75,-0.067,2,1,Hibernating / Dormant Shoppers
+USER_0177,Daniel Dubois,Germany,391,2,1183.0,3.5,0.705,3,3,Hibernating / Dormant Shoppers
+USER_0178,Chris King,Japan,65,11,2104.58,3.18,0.429,10,2,Champions & Brand Advocates
+USER_0179,Jordan Lee,Germany,7,12,3182.42,4.58,0.608,20,2,Champions & Brand Advocates
+USER_0180,Morgan Clark,Canada,106,7,1397.78,3.29,0.328,6,2,Champions & Brand Advocates
+USER_0181,Liam King,Australia,123,1,79.99,2.0,-0.784,0,1,Hibernating / Dormant Shoppers
+USER_0182,Daniel Clark,France,242,5,800.85,4.4,0.831,20,0,Champions & Brand Advocates
+USER_0183,Olivia Clark,Canada,184,1,429.0,1.0,0.0,5,1,Hibernating / Dormant Shoppers
+USER_0184,Emily Wright,Japan,159,5,1727.98,4.2,0.735,3,0,Champions & Brand Advocates
+USER_0185,Casey Wilson,India,149,13,2672.37,3.92,0.529,16,2,Champions & Brand Advocates
+USER_0186,Daniel King,Japan,56,8,2404.87,3.62,0.482,2,2,Champions & Brand Advocates
+USER_0187,David Wilson,India,73,11,1704.28,4.91,0.771,7,2,Champions & Brand Advocates
+USER_0188,Liam Williams,India,494,1,139.95,5.0,0.586,0,3,Hibernating / Dormant Shoppers
+USER_0189,Riley Taylor,Australia,238,3,474.94,5.0,0.31,1,0,Champions & Brand Advocates
+USER_0190,Priya Lee,United Kingdom,166,4,723.79,4.25,0.482,4,0,Champions & Brand Advocates
+USER_0191,Sam Jones,Germany,18,28,4697.44,3.0,0.26,50,2,Champions & Brand Advocates
+USER_0192,Marcus Jones,Germany,120,4,853.96,4.5,0.777,6,0,Champions & Brand Advocates
+USER_0193,Taylor Dubois,France,44,8,2273.64,3.88,0.601,14,2,Champions & Brand Advocates
+USER_0194,Priya Lee,Japan,388,1,69.95,5.0,0.917,1,3,Hibernating / Dormant Shoppers
+USER_0195,Elena Johnson,Germany,16,11,2951.84,3.55,0.55,8,2,Champions & Brand Advocates
+USER_0196,Elena Mueller,United States,15,7,2361.94,3.86,0.526,4,2,Champions & Brand Advocates
+USER_0197,Daniel Hall,France,14,23,4115.51,4.7,0.699,24,2,Champions & Brand Advocates
+USER_0198,Sophia Smith,Australia,67,4,195.78,4.0,0.624,1,0,Champions & Brand Advocates
+USER_0199,Avery Mueller,France,83,11,2754.72,3.73,0.453,7,2,Champions & Brand Advocates
+USER_0200,Olivia Lee,Germany,124,1,139.9,5.0,0.895,1,3,Hibernating / Dormant Shoppers
+USER_0201,Sophia Wilson,India,205,4,844.96,3.5,0.697,2,0,Champions & Brand Advocates
+USER_0202,Elena Wright,United States,78,6,914.93,4.0,0.474,11,0,Champions & Brand Advocates
+USER_0203,Marcus Patel,France,12,19,4005.37,4.21,0.683,9,2,Champions & Brand Advocates
+USER_0204,Emily Miller,Japan,114,4,1210.99,2.0,-0.094,3,1,Hibernating / Dormant Shoppers
+USER_0205,Sam Allen,United States,160,3,519.97,4.33,0.455,1,0,Champions & Brand Advocates
+USER_0206,Marcus Hall,United States,11,14,2582.73,4.0,0.345,4,2,Champions & Brand Advocates
+USER_0207,Taylor Dubois,Canada,25,17,2504.6,4.59,0.586,14,2,Champions & Brand Advocates
+USER_0208,Liam Miller,United States,356,1,14.99,4.0,0.886,2,3,Hibernating / Dormant Shoppers
+USER_0209,Casey Mueller,Australia,170,1,17.99,4.0,0.511,0,3,Hibernating / Dormant Shoppers
+USER_0210,Pat Clark,Australia,164,4,931.98,4.25,0.596,34,0,Champions & Brand Advocates
+USER_0211,Priya Mueller,India,291,2,339.96,5.0,0.474,12,3,Hibernating / Dormant Shoppers
+USER_0212,Daniel Dubois,India,39,15,2913.35,4.47,0.563,44,2,Champions & Brand Advocates
+USER_0213,Taylor Wright,United States,44,11,2754.86,3.55,0.413,8,2,Champions & Brand Advocates
+USER_0214,Emily Lee,United States,75,3,799.97,4.67,0.491,12,0,Champions & Brand Advocates
+USER_0215,Rahul Wilson,United Kingdom,11,10,2156.77,3.0,0.361,31,2,Champions & Brand Advocates
+USER_0216,Daniel Johnson,United States,131,8,2642.93,2.88,0.258,13,2,Champions & Brand Advocates
+USER_0217,Riley Davis,United States,26,7,968.89,4.71,0.843,6,0,Champions & Brand Advocates
+USER_0218,Emma Jones,Germany,127,1,17.99,5.0,0.948,0,3,Hibernating / Dormant Shoppers
+USER_0219,Sam Wright,United Kingdom,45,5,742.97,4.2,0.484,7,0,Champions & Brand Advocates
+USER_0220,Lucas Davis,Japan,384,7,778.72,2.57,0.243,26,1,Hibernating / Dormant Shoppers
+USER_0221,Michael Taylor,Australia,23,12,2925.87,4.42,0.551,35,2,Champions & Brand Advocates
+USER_0222,Chris Allen,United Kingdom,63,7,1160.68,3.57,0.461,2,2,Champions & Brand Advocates
+USER_0223,Daniel Miller,India,22,28,6925.24,4.46,0.527,68,2,Champions & Brand Advocates
+USER_0224,Morgan Hall,United States,4,13,1750.64,4.85,0.663,6,2,Champions & Brand Advocates
+USER_0225,Avery Hall,France,40,14,2280.44,4.71,0.739,12,2,Champions & Brand Advocates
+USER_0226,Marcus Davis,United Kingdom,370,3,220.97,5.0,0.877,7,3,Hibernating / Dormant Shoppers
+USER_0227,Lucas Wilson,United Kingdom,543,1,10.8,5.0,0.939,5,3,Hibernating / Dormant Shoppers
+USER_0228,Michael Anderson,United Kingdom,545,2,149.98,3.5,-0.355,1,1,Hibernating / Dormant Shoppers
+USER_0229,Lucas Johnson,Australia,152,3,976.98,5.0,0.88,0,0,Champions & Brand Advocates
+USER_0230,Olivia Dubois,Australia,67,14,2411.44,4.43,0.571,34,2,Champions & Brand Advocates
+USER_0231,Taylor King,Australia,5,9,1888.86,4.0,0.497,4,2,Champions & Brand Advocates
+USER_0232,Alex Dubois,Japan,90,9,1557.65,3.33,0.287,4,2,Champions & Brand Advocates
+USER_0233,Morgan Dubois,Australia,2,10,1241.52,3.3,0.31,14,2,Champions & Brand Advocates
+USER_0234,David Clark,Canada,182,3,543.97,3.33,0.29,1,1,Hibernating / Dormant Shoppers
+USER_0235,Elena Miller,India,102,3,762.99,5.0,0.764,1,0,Champions & Brand Advocates
+USER_0236,Emma Lee,Japan,61,4,469.78,4.75,0.82,0,0,Champions & Brand Advocates
+USER_0237,Liam Dubois,India,70,8,2170.96,3.88,0.758,10,2,Champions & Brand Advocates
+USER_0238,Priya Wilson,United Kingdom,106,7,1443.7,4.14,0.73,2,0,Champions & Brand Advocates
+USER_0239,Casey Clark,Germany,571,1,299.99,4.0,0.958,0,3,Hibernating / Dormant Shoppers
+USER_0240,Daniel Clark,France,68,3,969.96,5.0,0.791,12,0,Champions & Brand Advocates
+USER_0241,Priya Smith,Japan,86,6,1303.91,4.0,0.754,2,0,Champions & Brand Advocates
+USER_0242,Priya Miller,Japan,87,2,90.79,3.0,0.052,1,1,Hibernating / Dormant Shoppers
+USER_0243,Pat Sharma,India,81,17,3367.61,4.76,0.657,13,2,Champions & Brand Advocates
+USER_0244,Priya Taylor,India,51,23,4516.45,4.48,0.708,60,2,Champions & Brand Advocates
+USER_0245,Olivia Smith,Germany,21,19,3858.57,3.0,0.242,46,2,Champions & Brand Advocates
+USER_0246,Taylor Wilson,France,241,3,1872.99,4.33,0.882,1,0,Champions & Brand Advocates
+USER_0247,Sophia Lee,Germany,153,1,299.99,2.0,0.0,1,1,Hibernating / Dormant Shoppers
+USER_0248,Michael Wright,Japan,146,9,2955.93,3.22,0.383,3,2,Champions & Brand Advocates
+USER_0249,Liam Smith,United Kingdom,21,4,703.79,3.25,0.028,12,1,Hibernating / Dormant Shoppers
+USER_0250,Avery Wilson,France,48,6,1008.92,4.67,0.726,35,0,Champions & Brand Advocates
+USER_0251,Michael Wilson,India,105,1,119.99,4.0,0.477,1,0,Champions & Brand Advocates
+USER_0252,Sarah Hall,Australia,110,1,199.98,2.0,-0.726,0,1,Hibernating / Dormant Shoppers
+USER_0253,Sophia Lee,Australia,606,1,429.0,4.0,0.709,5,3,Hibernating / Dormant Shoppers
+USER_0254,Elena Lee,Australia,3,4,429.74,4.75,0.773,2,0,Champions & Brand Advocates
+USER_0255,Rahul Clark,India,1,9,3804.7,4.67,0.582,17,2,Champions & Brand Advocates
+USER_0256,Avery Taylor,Germany,159,3,803.99,4.33,0.381,5,0,Champions & Brand Advocates
+USER_0257,Morgan Davis,Australia,18,18,2964.52,4.56,0.716,57,2,Champions & Brand Advocates
+USER_0258,Morgan Lee,Canada,522,2,474.0,4.0,0.616,0,3,Hibernating / Dormant Shoppers
+USER_0259,Pat Davis,Japan,96,4,609.94,4.25,0.676,33,0,Champions & Brand Advocates
+USER_0260,Casey Hall,India,52,7,1022.71,2.57,-0.218,32,1,Hibernating / Dormant Shoppers
+USER_0261,Morgan Davis,India,17,6,1523.77,4.67,0.697,18,0,Champions & Brand Advocates
+USER_0262,Riley Sharma,Canada,61,11,2266.69,4.91,0.705,12,2,Champions & Brand Advocates
+USER_0263,Avery Smith,Canada,55,1,45.0,4.0,0.906,0,3,Hibernating / Dormant Shoppers
+USER_0264,Casey Johnson,United States,145,2,227.84,3.5,0.21,0,1,Hibernating / Dormant Shoppers
+USER_0265,Olivia Anderson,Canada,47,15,3090.44,3.47,0.346,30,2,Champions & Brand Advocates
+USER_0266,David Wright,United Kingdom,358,2,739.93,5.0,0.584,1,3,Hibernating / Dormant Shoppers
+USER_0267,Alex Hall,India,79,3,989.79,4.33,0.473,2,0,Champions & Brand Advocates
+USER_0268,Sophia Wright,Japan,72,6,1076.91,1.67,-0.229,8,1,Hibernating / Dormant Shoppers
+USER_0269,Priya Miller,United States,29,5,2227.95,4.2,0.496,2,2,Champions & Brand Advocates
+USER_0270,Casey Wright,United Kingdom,124,3,379.97,5.0,0.492,1,0,Champions & Brand Advocates
+USER_0271,Taylor Mueller,Japan,28,2,109.97,4.0,0.764,2,0,Champions & Brand Advocates
+USER_0272,Taylor Hall,United States,38,11,2328.71,3.91,0.558,3,2,Champions & Brand Advocates
+USER_0273,Sam Jones,India,123,4,750.62,4.0,0.613,29,0,Champions & Brand Advocates
+USER_0274,Taylor Wilson,United Kingdom,492,2,87.94,2.5,0.255,0,1,Hibernating / Dormant Shoppers
+USER_0275,Olivia Dubois,Germany,18,4,212.92,5.0,0.658,4,0,Champions & Brand Advocates
+USER_0276,Daniel King,France,190,1,139.95,2.0,0.202,1,1,Hibernating / Dormant Shoppers
+USER_0277,Liam Clark,India,63,14,3463.9,3.86,0.401,39,2,Champions & Brand Advocates
+USER_0278,Lucas Dubois,India,29,4,697.89,2.75,0.217,12,1,Hibernating / Dormant Shoppers
+USER_0279,Lucas Allen,United States,75,10,2461.89,4.8,0.806,4,2,Champions & Brand Advocates
+USER_0280,Emma Brown,Germany,16,30,6154.35,4.33,0.585,62,2,Champions & Brand Advocates
+USER_0281,David Davis,India,1,25,4408.39,4.56,0.558,24,2,Champions & Brand Advocates
+USER_0282,Sarah Williams,Canada,1,10,2091.63,2.9,0.215,6,2,Champions & Brand Advocates
+USER_0283,Riley Miller,United Kingdom,15,10,2021.93,4.6,0.591,9,2,Champions & Brand Advocates
+USER_0284,Chris Smith,France,60,3,479.79,4.0,0.635,15,0,Champions & Brand Advocates
+USER_0285,Liam Allen,Japan,81,6,1646.95,1.83,-0.0,2,1,Hibernating / Dormant Shoppers
+USER_0286,Avery Johnson,Germany,16,8,1944.81,4.88,0.783,44,2,Champions & Brand Advocates
+USER_0287,Avery Anderson,Japan,15,13,1707.67,2.31,0.142,10,2,Champions & Brand Advocates
+USER_0288,Taylor Wilson,India,24,11,2482.8,4.45,0.55,36,2,Champions & Brand Advocates
+USER_0289,David Hall,Germany,64,3,595.98,5.0,0.739,13,0,Champions & Brand Advocates
+USER_0290,Elena Brown,Germany,2,5,1269.94,4.6,0.667,14,0,Champions & Brand Advocates
+USER_0291,David Jones,India,317,1,10.8,4.0,0.817,0,3,Hibernating / Dormant Shoppers
+USER_0292,Sam Williams,United States,53,4,541.98,4.75,0.734,2,0,Champions & Brand Advocates
+USER_0293,Chris Anderson,India,239,3,618.98,4.67,0.582,1,0,Champions & Brand Advocates
+USER_0294,Liam Brown,Japan,209,3,165.78,4.33,0.813,29,3,Hibernating / Dormant Shoppers
+USER_0295,Michael Anderson,France,211,2,777.0,4.5,0.809,3,0,Champions & Brand Advocates
+USER_0296,Casey King,Japan,33,4,489.91,5.0,0.666,2,0,Champions & Brand Advocates
+USER_0297,Liam Williams,United States,215,4,757.93,3.25,0.352,1,1,Hibernating / Dormant Shoppers
+USER_0298,Elena Patel,India,52,2,214.97,4.5,0.76,0,0,Champions & Brand Advocates
+USER_0299,Alex Williams,Germany,525,1,69.95,4.0,0.895,2,3,Hibernating / Dormant Shoppers
+USER_0300,Sarah Hall,United States,136,3,584.94,3.33,0.32,2,0,Champions & Brand Advocates
+USER_0301,Daniel Taylor,United States,9,9,2307.92,3.0,0.399,34,2,Champions & Brand Advocates
+USER_0302,Daniel Miller,Japan,135,1,79.99,5.0,0.929,0,3,Hibernating / Dormant Shoppers
+USER_0303,Noah Clark,India,323,4,657.92,4.5,0.453,0,0,Champions & Brand Advocates
+USER_0304,Chris Hall,France,322,1,10.8,5.0,0.807,5,3,Hibernating / Dormant Shoppers
+USER_0305,David Wright,United Kingdom,96,15,2371.63,3.4,0.405,23,2,Champions & Brand Advocates
+USER_0306,Sophia Sharma,France,572,1,79.98,2.0,-0.153,0,1,Hibernating / Dormant Shoppers
+USER_0307,Priya Patel,United Kingdom,319,6,1574.91,4.67,0.858,9,0,Champions & Brand Advocates
+USER_0308,Chris Patel,France,133,6,1354.81,2.17,0.292,0,1,Hibernating / Dormant Shoppers
+USER_0309,Michael Wright,India,289,4,612.98,5.0,0.789,13,3,Hibernating / Dormant Shoppers
+USER_0310,Sarah Mueller,United States,57,8,1152.93,2.5,-0.229,6,1,Hibernating / Dormant Shoppers
+USER_0311,Liam Williams,Australia,71,17,3443.09,3.59,0.466,66,2,Champions & Brand Advocates
+USER_0312,Casey Patel,United Kingdom,148,3,409.96,4.67,0.903,4,0,Champions & Brand Advocates
+USER_0313,Daniel Mueller,United States,7,4,214.97,4.75,0.59,2,0,Champions & Brand Advocates
+USER_0314,Sarah Lee,Japan,327,4,399.92,4.0,0.74,2,3,Hibernating / Dormant Shoppers
+USER_0315,Elena Johnson,Germany,119,1,17.99,3.0,0.329,0,1,Hibernating / Dormant Shoppers
+USER_0316,Noah Sharma,Japan,459,1,17.99,4.0,0.935,1,3,Hibernating / Dormant Shoppers
+USER_0317,David Clark,United States,416,4,422.97,4.0,0.522,6,3,Hibernating / Dormant Shoppers
+USER_0318,Pat Taylor,Canada,59,3,209.97,4.33,0.842,7,0,Champions & Brand Advocates
+USER_0319,Avery Clark,Japan,158,13,2001.65,4.46,0.769,14,2,Champions & Brand Advocates
+USER_0320,Morgan Smith,Germany,47,10,3044.76,2.3,0.091,44,2,Champions & Brand Advocates
+USER_0321,Michael Miller,India,321,3,197.98,5.0,0.856,3,3,Hibernating / Dormant Shoppers
+USER_0322,Olivia Smith,France,18,4,569.91,1.75,-0.362,8,1,Hibernating / Dormant Shoppers
+USER_0323,Taylor Wilson,United Kingdom,337,1,14.99,3.0,0.519,0,3,Hibernating / Dormant Shoppers
+USER_0324,Liam Brown,Canada,15,23,4972.54,4.26,0.608,29,2,Champions & Brand Advocates
+USER_0325,Sophia Anderson,India,70,25,5395.46,4.64,0.657,16,2,Champions & Brand Advocates
+USER_0326,Elena Wright,Japan,589,1,69.95,5.0,0.34,0,3,Hibernating / Dormant Shoppers
+USER_0327,Riley Clark,Canada,28,25,5521.26,4.52,0.571,42,2,Champions & Brand Advocates
+USER_0328,Marcus Davis,Canada,264,4,968.97,4.75,0.595,1,0,Champions & Brand Advocates
+USER_0329,Taylor Taylor,France,24,3,269.96,3.0,0.177,14,1,Hibernating / Dormant Shoppers
+USER_0330,Priya King,India,8,9,1647.88,3.44,0.558,1,2,Champions & Brand Advocates
+USER_0331,Alex Anderson,India,197,2,849.98,4.0,0.661,0,0,Champions & Brand Advocates
+USER_0332,Lucas Hall,Japan,316,3,609.59,4.33,0.783,12,3,Hibernating / Dormant Shoppers
+USER_0333,Sam Clark,Japan,281,10,1861.83,4.8,0.57,13,0,Champions & Brand Advocates
+USER_0334,Rahul Patel,France,154,1,549.99,4.0,0.886,0,0,Champions & Brand Advocates
+USER_0335,Liam Patel,Germany,153,2,159.95,3.5,0.76,1,0,Champions & Brand Advocates
+USER_0336,Michael Wilson,France,192,3,195.79,4.67,0.419,5,0,Champions & Brand Advocates
+USER_0337,Riley Dubois,United States,76,2,338.99,5.0,0.877,12,0,Champions & Brand Advocates
+USER_0338,Priya Wright,France,72,4,1471.99,3.75,0.519,3,0,Champions & Brand Advocates
+USER_0339,Marcus Jones,Japan,367,1,279.98,4.0,0.922,0,3,Hibernating / Dormant Shoppers
+USER_0340,Jordan Jones,Australia,26,3,1287.97,3.67,0.872,4,0,Champions & Brand Advocates
+USER_0341,Morgan Clark,United Kingdom,55,4,659.96,4.25,0.409,3,0,Champions & Brand Advocates
+USER_0342,Noah Clark,United States,197,1,325.0,5.0,0.0,2,0,Champions & Brand Advocates
+USER_0343,Emily Jones,France,448,1,299.99,3.0,0.727,0,3,Hibernating / Dormant Shoppers
+USER_0344,David Jones,United Kingdom,272,1,549.99,5.0,0.917,1,3,Hibernating / Dormant Shoppers
+USER_0345,Sophia Taylor,Australia,301,1,39.99,3.0,0.329,1,1,Hibernating / Dormant Shoppers
+USER_0346,Emma Mueller,United Kingdom,492,1,139.95,5.0,0.802,0,3,Hibernating / Dormant Shoppers
+USER_0347,Priya Lee,France,69,3,234.94,4.0,0.829,2,0,Champions & Brand Advocates
+USER_0348,Priya Wright,United States,419,3,1211.58,4.33,0.872,3,3,Hibernating / Dormant Shoppers
+USER_0349,Emma Williams,Germany,6,13,1575.63,4.23,0.576,20,2,Champions & Brand Advocates
+USER_0350,David Anderson,Germany,51,3,600.78,2.0,-0.097,0,1,Hibernating / Dormant Shoppers
