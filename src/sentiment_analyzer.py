@@ -94,6 +94,29 @@ class StanfordCoreNLPSentimentAnalyzer:
             "parsed_tokens": len(words)
         }
 
+def analyze_sentiment(text: str, rating: float = None) -> dict:
+    """Wrapper function for standalone sentiment analysis, matching Stanford CoreNLP 5-class polarity."""
+    analyzer = StanfordCoreNLPSentimentAnalyzer()
+    res = analyzer.analyze_sentiment(text, rating)
+    score = res["sentiment_score"]
+    
+    # Map score to positive, negative, neutral lexicon proxies for UI gauges
+    pos_val = max(0.0, round(score, 3))
+    neg_val = max(0.0, round(-score, 3))
+    neu_val = round(max(0.0, 1.0 - (pos_val + neg_val)), 3)
+
+    return {
+        "sentiment": res["sentiment_class"],
+        "sentiment_score": score,
+        "sentiment_level": res["sentiment_level"],
+        "vader_compound": score,
+        "polarity": score,
+        "subjectivity": round(min(1.0, abs(score) + 0.3), 3),
+        "vader_pos": pos_val,
+        "vader_neg": neg_val,
+        "vader_neu": neu_val
+    }
+
 def process_sentiment_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     """Processes customer review streams and appends Stanford CoreNLP sentiment features."""
     analyzer = StanfordCoreNLPSentimentAnalyzer()
