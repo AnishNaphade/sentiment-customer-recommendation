@@ -177,7 +177,7 @@ if selected_cat != "All Categories":
 st.markdown("""
 <div class="main-header">
     <h1>E-Commerce Intelligence Platform</h1>
-    <p>Unified NLP Sentiment Analysis, Dynamic RFM+Sentiment Customer Segmentation & Hybrid Recommendation Engine</p>
+    <p>Unified NLP Sentiment Analysis, K-Means & KNN Customer Segmentation & Cosine Similarity Recommendation Engine</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -229,7 +229,7 @@ if app_mode == "Executive Dashboard":
         <div class="metric-card">
             <div class="metric-title">Net Positive Sent.</div>
             <div class="metric-val">{pos_sentiment_pct:.1f}%</div>
-            <div class="metric-sub" style="color:#34d399;">VADER & Polarity</div>
+            <div class="metric-sub" style="color:#34d399;">Stanford CoreNLP Polarity</div>
         </div>
         """, unsafe_allow_html=True)
 
@@ -362,7 +362,7 @@ elif app_mode == "Sentiment Deep-Dive":
 # ----------------- MODULE 3: LIVE TEXT ANALYZER -----------------
 elif app_mode == "Live Text Analyzer":
     st.subheader("Real-Time Review Sentiment Diagnostic")
-    st.write("Type or paste any consumer feedback or product review below to run through the VADER & TextBlob NLP pipeline in real-time.")
+    st.write("Type or paste any consumer feedback or product review below to run through the Stanford CoreNLP linguistic & sentiment pipeline in real-time.")
 
     col_in, col_out = st.columns([1.2, 1])
 
@@ -385,8 +385,8 @@ elif app_mode == "Live Text Analyzer":
 
             m1, m2 = st.columns(2)
             with m1:
-                st.metric("VADER Compound", f"{res['vader_compound']}", help="-1.0 to +1.0 scale")
-                st.metric("TextBlob Polarity", f"{res['polarity']}", help="-1.0 to +1.0 scale")
+                st.metric("CoreNLP Sentiment Score", f"{res['vader_compound']}", help="-1.0 to +1.0 scale")
+                st.metric("Emotion Intensity Level", f"{res['polarity']}", help="-1.0 to +1.0 scale")
             with m2:
                 st.metric("Subjectivity", f"{res['subjectivity']}", help="0.0 (Objective) to 1.0 (Opinionated)")
                 st.metric("Pos / Neg Lexicon", f"{res['vader_pos']} / {res['vader_neg']}")
@@ -412,8 +412,8 @@ elif app_mode == "Live Text Analyzer":
 
 # ----------------- MODULE 4: CUSTOMER SEGMENTATION -----------------
 elif app_mode == "Customer Segmentation":
-    st.subheader("Machine Learning Customer Segmentation (K-Means & RFM-S)")
-    st.write("Segments shoppers using an augmented **RFM-S (Recency, Frequency, Monetary + Sentiment)** model.")
+    st.subheader("Machine Learning Customer Segmentation (K-Means & KNN)")
+    st.write("Segments shoppers using Elbow-optimized **K-Means clustering** and **K-Nearest Neighbors (KNN)**.")
 
     seg_c1, seg_c2 = st.columns([1.2, 1])
     
@@ -487,8 +487,8 @@ elif app_mode == "Customer Segmentation":
 
 # ----------------- MODULE 5: RECOMMENDATION ENGINE -----------------
 elif app_mode == "Recommendation Engine":
-    st.subheader("Sentiment-Aware Hybrid Recommendation Engine")
-    st.write("Generates recommendations using **Item Content Similarity (TF-IDF)** and **Collaborative Filtering weighted by VADER Sentiment**.")
+    st.subheader("Sentiment-Aware Cosine Similarity Recommendation Engine")
+    st.write("Generates recommendations using **Item Content Similarity (TF-IDF)** and **Pairwise Cosine Similarity Matrices combining sentiment vectors and product attributes**.")
 
     rec_tab1, rec_tab2, rec_tab3 = st.tabs([
         "Personalized Shopper Recommendations",
