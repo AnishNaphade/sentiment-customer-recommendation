@@ -391,24 +391,10 @@ elif app_mode == "Live Text Analyzer":
                 st.metric("Subjectivity", f"{res['subjectivity']}", help="0.0 (Objective) to 1.0 (Opinionated)")
                 st.metric("Pos / Neg Lexicon", f"{res['vader_pos']} / {res['vader_neg']}")
 
-            # Gauge Chart for Sentiment Intensity
-            fig_gauge = go.Figure(go.Indicator(
-                mode="gauge+number",
-                value=res['vader_compound'],
-                domain={'x': [0, 1], 'y': [0, 1]},
-                title={'text': "Sentiment Index", 'font': {'size': 16, 'color': '#cbd5e1'}},
-                gauge={
-                    'axis': {'range': [-1, 1], 'tickwidth': 1, 'tickcolor': "#475569"},
-                    'bar': {'color': "#38bdf8"},
-                    'steps': [
-                        {'range': [-1, -0.05], 'color': "rgba(239, 68, 68, 0.3)"},
-                        {'range': [-0.05, 0.05], 'color': "rgba(234, 179, 8, 0.3)"},
-                        {'range': [0.05, 1], 'color': "rgba(16, 185, 129, 0.3)"}
-                    ]
-                }
-            ))
-            fig_gauge.update_layout(paper_bgcolor="rgba(0,0,0,0)", height=220, margin=dict(l=10, r=10, t=25, b=10))
-            st.plotly_chart(fig_gauge, use_container_width=True)
+            norm_score = float((res['vader_compound'] + 1.0) / 2.0)
+            st.write(f"**Continuous Sentiment Polarity:** `{res['vader_compound']:+.3f}`")
+            st.progress(min(max(norm_score, 0.0), 1.0))
+            st.caption("Stanford CoreNLP Recursive Sentiment Scale: [-1.0 = Very Negative, 0.0 = Neutral, +1.0 = Very Positive]")
 
 # ----------------- MODULE 4: CUSTOMER SEGMENTATION -----------------
 elif app_mode == "Customer Segmentation":
@@ -418,26 +404,25 @@ elif app_mode == "Customer Segmentation":
     seg_c1, seg_c2 = st.columns([1.2, 1])
     
     with seg_c1:
-        st.markdown("##### 3D Feature Space: Recency, Monetary & Sentiment")
-        fig_3d = px.scatter_3d(
+        st.markdown("##### Customer Personas (K-Means Clustering)")
+        fig_2d = px.scatter(
             df_segments,
-            x='recency', y='frequency', z='monetary',
+            x='transaction_volume',
+            y='monetary_value',
             color='segment_name',
             hover_name='reviewer_name',
-            hover_data=['country', 'avg_rating', 'avg_sentiment'],
+            hover_data=['average_rating', 'sentiment_score'],
             template="plotly_dark",
-            color_discrete_sequence=['#38bdf8', '#a855f7', '#10b981', '#f59e0b']
+            labels={'transaction_volume': 'Transaction Volume (Invoices)', 'monetary_value': 'Total Spend ($)', 'segment_name': 'Cluster Persona'},
+            color_discrete_sequence=['#38bdf8', '#a855f7', '#10b981']
         )
-        fig_3d.update_layout(
+        fig_2d.update_layout(
             paper_bgcolor="rgba(0,0,0,0)",
+            plot_bgcolor="rgba(0,0,0,0)",
             margin=dict(l=10, r=10, t=10, b=10),
-            scene=dict(
-                xaxis_title="Recency (Days)",
-                yaxis_title="Frequency (# Purchases)",
-                zaxis_title="Monetary Spend ($)"
-            )
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
         )
-        st.plotly_chart(fig_3d, use_container_width=True)
+        st.plotly_chart(fig_2d, use_container_width=True)
 
     with seg_c2:
         st.markdown("##### Segment Distribution")
