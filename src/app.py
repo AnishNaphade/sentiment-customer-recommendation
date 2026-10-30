@@ -405,15 +405,19 @@ elif app_mode == "Customer Segmentation":
     
     with seg_c1:
         st.markdown("##### Customer Personas (K-Means Clustering)")
+        x_col = 'transaction_volume' if 'transaction_volume' in df_segments.columns else 'frequency'
+        y_col = 'monetary_value' if 'monetary_value' in df_segments.columns else 'monetary'
+        hover_cols = [c for c in ['avg_rating', 'avg_sentiment', 'average_rating', 'sentiment_score'] if c in df_segments.columns]
+
         fig_2d = px.scatter(
             df_segments,
-            x='transaction_volume',
-            y='monetary_value',
+            x=x_col,
+            y=y_col,
             color='segment_name',
             hover_name='reviewer_name',
-            hover_data=['average_rating', 'sentiment_score'],
+            hover_data=hover_cols,
             template="plotly_dark",
-            labels={'transaction_volume': 'Transaction Volume (Invoices)', 'monetary_value': 'Total Spend ($)', 'segment_name': 'Cluster Persona'},
+            labels={x_col: 'Transaction Volume (Invoices)', y_col: 'Total Spend ($)', 'segment_name': 'Cluster Persona'},
             color_discrete_sequence=['#38bdf8', '#a855f7', '#10b981']
         )
         fig_2d.update_layout(
